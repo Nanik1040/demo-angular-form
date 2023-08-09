@@ -1,0 +1,25 @@
+<p>comp-b works!</p>
+<div *ngFor="let data of studesData; let i = index">
+  <table *ngFor="let lol of data">
+    <th>name</th>
+    <br />
+    <td>
+      {{ lol.name }}
+    </td>
+    <th>age</th>
+    <br />
+    <td>
+      {{ lol.age }}
+    </td>
+    <th>school</th>
+    <br />
+    <td>
+      {{ lol.school }}
+    </td>
+    <th>mobile</th>
+    <br />
+    <td>
+      {{ lol.mobile }}
+    </td>
+  </table>
+</div>

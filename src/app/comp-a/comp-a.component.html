@@ -1,0 +1,9 @@
+<p>com-a works!</p>
+<span>student form</span>
+<form #studentform="ngForm" (ngSubmit)="submitForm(studentform)">
+  Name: <input type="text" name="name" [(ngModel)]="name" /><br />
+  Mobile:<input type="text" name="number" [(ngModel)]="numb" /><br />
+  Age:<input type="text" name="age" [(ngModel)]="age" /><br />
+  school:<input type="text" name="school" [(ngModel)]="schoool" /><br />
+  <button type="submit">Submit</button>
+</form>
